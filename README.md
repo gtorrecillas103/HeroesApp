@@ -2,4 +2,4 @@
 
 Heroes App.
 
-Practicing Lazy load.S
+Practicing Lazy load.
