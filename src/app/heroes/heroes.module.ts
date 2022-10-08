@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeroesRoutingModule } from './heroes-routing.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { FormsModule } from '@angular/forms';
 import { MaterialModule } from '../material/material.module';
 
 import { CreateComponent } from './pages/create/create.component';
@@ -28,6 +29,7 @@ import { ImagePipe } from './pipes/image.pipe';
     CommonModule,
     HeroesRoutingModule,
     FlexLayoutModule,
+    FormsModule,
     MaterialModule
   ]
 })
