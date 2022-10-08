@@ -1,16 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 import { HeroesService } from '../../services/heroes.service';
-import { Heroe } from '../../interfaces/heroes.interface';
+import { Hero } from '../../interfaces/heroes.interface';
 
 @Component({
   selector: 'app-list',
   templateUrl: './list.component.html',
   styles: [
+
   ]
 })
 export class ListComponent implements OnInit {
 
-  heroes: Heroe[] = []
+  heroes: Hero[] = []
 
   constructor(private herosService: HeroesService) { }
 
